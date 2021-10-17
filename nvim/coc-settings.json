@@ -1,0 +1,105 @@
+{
+  "suggest.timeout": 50000,
+  "languageserver": {
+    "terraform": {
+      "command": "terraform-lsp",
+      "filetypes": ["terraform", "tf"],
+      "initializationOptions": {},
+      "settings": {}
+    },
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cpp", "objc", "objcpp"],
+      "rootPatterns": [
+        ".ccls",
+        "compile_commands.json",
+        ".vim/",
+        ".git/",
+        ".hg/"
+      ],
+      "initializationOptions": {
+        "cache": {
+          "directory": "/tmp/ccls"
+        }
+      }
+    }
+  },
+
+  "cSpellExt.enableDictionaries": ["spanish"],
+  "cSpell.language": "en, es",
+  "eslint.autoFixOnSave": true,
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "python",
+    "c",
+    "cpp",
+    "rust",
+    "css",
+    "html",
+    "json",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "tsserver.formatOnType": true,
+  "python.jediEnabled": true,
+  "python.venvPath": "/home/fraco/.local/share/virtualenvs/",
+  "python.jediPath": "/home/fraco/.local/lib/python3.9/site-packages",
+  "cSpell.userWords": [
+    "Alessandri",
+    "Egaña",
+    "Floa",
+    "Gemunu",
+    "Inclusividad",
+    "Interdisciplinariedad",
+    "Monokai",
+    "Socialización",
+    "Somarriva",
+    "Subrrallador",
+    "appname",
+    "asíntota",
+    "bindgen",
+    "blinkon",
+    "consts",
+    "covalente",
+    "dirigismo",
+    "dotenv",
+    "entalpía",
+    "floaterm",
+    "fraco",
+    "gliales",
+    "gruvbox",
+    "holistica",
+    "iamcco",
+    "inhibidor",
+    "junegunn",
+    "mkdp",
+    "monoxido",
+    "morhetz",
+    "neighbours",
+    "neoclide",
+    "noinsert",
+    "nucleotido",
+    "nucleotidos",
+    "phanviet",
+    "pipenv",
+    "primordialmente",
+    "println",
+    "proto",
+    "reactante",
+    "reactantes",
+    "rustc",
+    "tlsv",
+    "tpope",
+    "underpopulation",
+    "voldikss",
+    "Ítaca"
+  ]
+}
