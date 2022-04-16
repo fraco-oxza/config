@@ -6,12 +6,11 @@ from typing import List
 from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
-from libqtile.utils import guess_terminal
 from libqtile import hook
 
 
 mod = "mod4"
-terminal = guess_terminal()
+terminal = "kitty"
 
 color = "#458588"
 color_light = "#83a598"
@@ -147,7 +146,7 @@ screens = [
                 widget.Memory(foreground="#928374"),
                 widget.Spacer(length=5),
                 widget.CPUGraph(border_color="#504945",fill_color="#504945", graph_color="#928374"),
-                widget.KeyboardLayout(configured_keyboards=["es", "us"],foreground="#a89984", padding=6),
+                    widget.KeyboardLayout(configured_keyboards=["es", "us"],foreground="#a89984", padding=6),
                 widget.TextBox(text="", background="#3c3836",
                                foreground="#504945", fontsize=28, padding=0),
                 widget.Systray(background="#504945"),
